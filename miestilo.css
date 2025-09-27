@@ -1,0 +1,67 @@
+/*establecer estilo de la cabeza*/
+header{
+    background-color: rgb(20, 167, 123); /*color de fondo de la cabecera*/
+    padding: 0.5%; /*espacio interno*/
+    text-align:justify ; /*alineacion del texto*/
+    border-top: 30px rgb(92, 172, 17); /* color y ancho del borde superior*/
+    border-bottom: 10px rgb(194, 157, 35); /*color y ancho del border inferior*/
+    color: rgb(79, 18, 192); /*color del texto*/
+}
+/*establecer estilo a la imagen*/
+.imagen-inline{
+    width: 150px; /*ancho de la imagen*/
+    height: auto; /*alto de la imagen*/
+    float: right;/*ubicacion de la imagen*/
+    display: inline; /* se muestra en la misma linea que el texto*/
+    margin-right: 10px; /*margenes dentro de la cabecera*/
+    margin-top: 5px; /*margen dentro de la cabecera*/
+}
+/*estilo dentro de la barra de navegacion*/
+.navbar ul{
+    background-color: rgb(6, 80, 88); /*color de fondo*/
+    list-style: none; /*elimina los marcadores de la lista */
+    display: flex; /*crea una barra o contenedor que permite a sus elementos distribuirse  
+    de manera flexible y adptarse al espacio*/
+    justify-content: flex-end; /* los botones se distribuyen de manera uniforme en la barra
+    de navegacion como un mismo espacio*/
+    padding: 0.3cm; /*espacio interno*/
+    margin: 0.5;/* margen de la barra y header*/
+}
+
+.a{
+    text-decoration: dashed;
+    color: rgb(3, 13, 143);
+}
+/* establecer estilo para los botones*/
+.btn.nav{
+    background-color: rgb(155, 90, 15);/*color de fondo del boton*/
+    color: black;/* es el color del texto */
+    border: 1px solid rgb(12, 47, 163); /*elimina el borde que estba predeterminado de los botones*/
+    padding: 15px 25px;/* es el espacio interno entre los bordes*/
+    font-size: 16px; /*tamaño de la fuente*/
+    cursor: pointer;/*cambia el cursor a una mano cuando pasa por encima del boton*/
+    width: 10px;
+
+}
+/*estilo para cuando se pasa el cursor por los botones*/
+.btn-nav:hover{
+    background-color: rgb(11, 89, 130);/*color de fondo del boton*/
+}
+.contenedor{display: flex;
+             width: 80vw;
+            }
+
+
+.articulo{background-color: rgba(255, 236, 149, 0.925);
+           flex:3;
+        padding: 20px;}
+.pie{background-color: rgb(29, 138, 138);}
+
+.propaganda{
+    background-color: rgb(255, 0, 0);
+    flex:1;
+    padding: 20px;
+}
+
+
+body{margin: 0%;}
